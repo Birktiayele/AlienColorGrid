@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<VBox alignment="CENTER" prefHeight="576.0" prefWidth="686.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proj3_alientitles.alienTitles_Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="447.0" prefWidth="646.0">
+      <center>
+         <GridPane fx:id="gridPane" gridLinesVisible="true" BorderPane.alignment="CENTER">
+           <columnConstraints>
+             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           </columnConstraints>
+           <rowConstraints>
+             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+           </rowConstraints>
+            <children>
+               <Button fx:id="b00" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" />
+               <Button fx:id="b01" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="1" />
+               <Button fx:id="b02" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="2" />
+               <Button fx:id="b20" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.rowIndex="2" />
+               <Button fx:id="b30" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.rowIndex="3" />
+               <Button fx:id="b40" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.rowIndex="4" />
+               <Button fx:id="b60" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.rowIndex="6" />
+               <Button fx:id="b50" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.rowIndex="5" />
+
+               <Button fx:id="b21" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               <Button fx:id="b31" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               <Button fx:id="b41" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+               <Button fx:id="b51" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+               <Button fx:id="b61" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+
+               <Button fx:id="b12" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+               <Button fx:id="b22" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+               <Button fx:id="b32" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+               <Button fx:id="b42" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+               <Button fx:id="b52" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+               <Button fx:id="b62" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+
+               <Button fx:id="b03" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="3" />
+               <Button fx:id="b13" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+               <Button fx:id="b23" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+               <Button fx:id="b33" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+               <Button fx:id="b43" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+               <Button fx:id="b53" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+               <Button fx:id="b63" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+
+               <Button fx:id="b04" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="4" />
+               <Button fx:id="b14" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+               <Button fx:id="b24" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+               <Button fx:id="b34" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+               <Button fx:id="b44" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+               <Button fx:id="b54" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+               <Button fx:id="b64" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+               <Button fx:id="b65" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+
+               <Button fx:id="b05" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="5" />
+               <Button fx:id="b15" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+               <Button fx:id="b25" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+               <Button fx:id="b35" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+               <Button fx:id="b45" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+               <Button fx:id="b55" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+
+               <Button fx:id="b06" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="6" />
+               <Button fx:id="b16" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+               <Button fx:id="b36" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+               <Button fx:id="b26" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+               <Button fx:id="b46" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+               <Button fx:id="b56" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+               <Button fx:id="b66" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+               <Button fx:id="b10" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="68.0" prefWidth="98.0" GridPane.rowIndex="1" />
+               <Button fx:id="b11" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onBtnClick" prefHeight="64.0" prefWidth="98.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            </children>
+         </GridPane>
+      </center>
+      <top>
+         <MenuBar BorderPane.alignment="CENTER">
+           <menus>
+             <Menu mnemonicParsing="false" text="File">
+               <items>
+                 <MenuItem fx:id="menuItemSave" mnemonicParsing="false" onAction="#onSavePattern" text="Save Pattern File" />
+                     <MenuItem fx:id="menuItemLoadPattern" mnemonicParsing="false" onAction="#onLoadPattern" text="Load Pattern from File" />
+                     <MenuItem fx:id="menuItemExit" mnemonicParsing="false" onAction="#onExit" text="Close" />
+               </items>
+             </Menu>
+             <Menu mnemonicParsing="false" onAction="#onNewGame" text="New Game">
+               <items>
+                 <MenuItem fx:id="menuItemRed" mnemonicParsing="false" onAction="#onNewGame" text="All Red" />
+                     <MenuItem fx:id="menuItemGreen" mnemonicParsing="false" onAction="#onNewGame" text="All Green" />
+                     <MenuItem fx:id="menuItemBlue" mnemonicParsing="false" onAction="#onNewGame" text="All Blue" />
+                     <MenuItem fx:id="menuItemPurple" mnemonicParsing="false" onAction="#onNewGame" text="All Purple" />
+                     <MenuItem fx:id="menuItemRandom" mnemonicParsing="false" onAction="#onNewGame" text="Random" />
+               </items>
+             </Menu>
+             <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                 <MenuItem fx:id="menuItemUndo" mnemonicParsing="false" onAction="#onUndo" text="Undo" />
+                     <MenuItem fx:id="menuItemRedo" mnemonicParsing="false" onAction="#onRedo" text="Redo" />
+               </items>
+             </Menu>
+           </menus>
+         </MenuBar>
+      </top>
+   </BorderPane>
+</VBox>
